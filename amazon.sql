@@ -1,10 +1,10 @@
-SELECT * FROM amazon
+SELECT * FROM amazon;
 
 SELECT COUNT(product_id)
-FROM amazon
+FROM amazon;
 
 SELECT AVG(rating)
-FROM amazon 
+FROM amazon;
 
 SELECT actual_price, rating, product_name, product_id 
-FROM amazon 
+FROM amazon;
