@@ -29,7 +29,7 @@ FROM amazon;
 SELECT AVG(actual_price)
 FROM amazon;
 
--- group product name, category and price and group by discount percentage in descending order
+-- group product name, category and price and group by rating and ordered in descending order
 SELECT product_name, category, actual_price
 FROM amazon 
 GROUP BY rating
